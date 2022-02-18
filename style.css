@@ -1,0 +1,203 @@
+p {
+    color: #948a8a;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Deen-content-wrap {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#right-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#left-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-section {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-section img {
+    width: 20%;
+    height: 100%;
+}
+
+.subscribe-section {
+    padding-top: 40px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.launch-heading h2 {
+    text-align: center;
+    padding-top: 25px;
+    font-weight: 700;
+}
+
+#mc_embed_signup_scroll p {
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.circle {
+    width: 390px;
+    height: 390px;
+    position: absolute;
+    animation: animate 50s infinite linear;
+}
+
+.communicate {
+    position: absolute;
+    top: 62%;
+    right: 83%;
+    transform: rotate(-107deg);
+    color: navy;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.network {
+    position: absolute;
+    bottom: 100%;
+    left: 40%;
+    color: navy;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.connect {
+    position: absolute;
+    top: 67%;
+    left: 90%;
+    transform: rotate(117deg);
+    color: navy;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+#earth {
+    position: relative;
+    width: 390px;
+    height: 390px;
+    margin: 3em auto;
+    transition: transform 400ms linear;
+    animation: rotate 25s linear infinite;
+    color: #000;
+    border-radius: 50%;
+    background: url("images/Deen-Map.png");
+    background-repeat: repeat;
+    background-size: 630px;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    box-shadow: inset 20px 0 80px 6px rgba(0, 0, 0, 1);
+    transform-style: preserve-3d;
+}
+
+#earth-lines {
+    background: url("images/Waves.png");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -51px;
+    left: 25px;
+}
+
+.test-cont {
+    text-align: center;
+}
+
+#test p {
+    font-size: 25px;
+    font-weight: 600;
+    color: navy;
+}
+
+#mc_embed_signup .button {
+    background-color: #ff0000;
+    width: 96%;
+    height: 45px;
+}
+
+#mc_embed_signup .mc-field-group input {
+    border: none;
+    background-color: #eae5e5;
+}
+
+#mc_embed_signup div.response {
+    width: 100%;
+}
+
+.copyright-section p {
+    text-align: center;
+    font-size: 12px;
+}
+
+.developer-section a {
+    color: #ff0000;
+}
+
+.developer-section p {
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+}
+
+.footer-section {
+    padding-top: 24px;
+    border-top: solid;
+    border-width: 1px;
+    border-color: #eae9e9;
+}
+
+div.circTxt {
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+div.circTxt p {
+    animation: animate 40s infinite linear;
+}
+
+
+/* ====================================================== */
+
+
+/*                        ANIMATIONS                     */
+
+
+/* ===================================================== */
+
+@keyframes rotate {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 630px 0;
+    }
+}
+
+@keyframes animate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* =================================================================================== */

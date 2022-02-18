@@ -1,0 +1,51 @@
+@media only screen and (max-width: 1199px) {
+    .subscribe-section {
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width: 1080px) {
+    #left-column {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    #right-column {
+        display: none;
+    }
+    .logo-section img {
+        width: 15%;
+    }
+    .subscribe-section {
+        width: 35%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .subscribe-section {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    p {
+        font-size: 15px;
+    }
+    body {
+        font-size: 15px;
+    }
+    .subscribe-section {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 481px) {
+    body {
+        font-size: 13px;
+    }
+    p {
+        font-size: 13px;
+    }
+    .subscribe-section {
+        width: 65%;
+    }
+}
